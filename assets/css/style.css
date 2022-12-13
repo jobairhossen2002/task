@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Archivo Black', sans-serif;
+}
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+  }
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  header{
+    padding:17px 0;
+    font-size:30px;
+  }
+  .container header .logo a{
+    color:#BDBDBD;
+    text-decoration: none;
+    font-weight: 600;
+    font-style:italic;
+    float:left;
+    width:50%;
+  }
+  .container header .icon i{
+    float:left;
+    width:50%;
+    text-align: right;
+    cursor: pointer;
+  }
+  main section{
+    background-image: url(../images/jobair.jpg);
+    background-size: cover;
+    background-position: center;
+    color:white;
+  }
+  main section .content{
+    max-width:545px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top:315px;
+    padding-bottom: 70px;
+    padding-left: 100px;
+  }
+  main section .content h1{
+    font-size:65px;
+  }
+  main section .container .content h5{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+  main section .content p a{
+    color:#18922c;
+    text-decoration: none;
+  }
+  main section .content p a:hover{
+    color:#0b8040;
+  }
+  footer{
+    background-color: #333333;
+    color:white;
+    font-family: sans-serif;
+  }
+  footer .container .content-two{
+    max-width:400px;
+    text-align: center;
+    margin:auto;
+  }
+  footer .container .content-two P{
+    padding-top:65px;
+    padding-bottom: 105px;
+  }
+  footer .container .content-three{
+    padding-bottom: 50px;
+  }
+  footer .container .content-three a{
+    color:#AEF5BA;
+  }
+  footer .container .content-three a:hover{
+    color:#6d6161;
+  }
